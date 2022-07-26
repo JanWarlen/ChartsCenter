@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T15:41:46.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QfZEid1NPy0ZZwITVUhM" version="20.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-26T11:39:17.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="m6a-_y1MKmkNuCj8ZH2u" version="20.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1298" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3013" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YKWzOPBAbGGIlihZNfzH-10" value="Broker 服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="80" width="100" height="530" as="geometry" />
+          <mxGeometry x="550" y="80" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="YKWzOPBAbGGIlihZNfzH-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-10">
           <mxGeometry x="45" y="80" width="10" height="180" as="geometry" />
@@ -54,6 +54,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-10">
+          <mxGeometry x="45" y="590" width="10" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-10">
+          <mxGeometry x="45" y="440" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="YKWzOPBAbGGIlihZNfzH-13" value="消息发送结束" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1.3;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-10" target="YKWzOPBAbGGIlihZNfzH-2">
           <mxGeometry x="-0.7623" y="9" width="80" relative="1" as="geometry">
             <mxPoint x="260" y="480" as="sourcePoint" />
@@ -62,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YKWzOPBAbGGIlihZNfzH-14" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AsyncTraceDispatcher&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="80" width="170" height="510" as="geometry" />
+          <mxGeometry x="720" y="80" width="170" height="810" as="geometry" />
         </mxCell>
         <mxCell id="YKWzOPBAbGGIlihZNfzH-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-14">
           <mxGeometry x="80" y="290" width="10" height="80" as="geometry" />
@@ -78,10 +84,200 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-18" value="构&lt;br&gt;造&lt;br&gt;函&lt;br&gt;数" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-14">
+          <mxGeometry x="80" y="80" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-19" value="创建轨迹缓存队列&lt;span style=&quot;text-align: center;&quot;&gt;traceContextQueue&lt;br&gt;&lt;/span&gt;轨迹发送线程池traceExecutor&lt;br&gt;轨迹发送producer&amp;nbsp;traceProducer&lt;br&gt;轨迹发送等待队列taskQueueByTopic&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.4;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.2;exitY=0.186;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="YKWzOPBAbGGIlihZNfzH-18" parent="YKWzOPBAbGGIlihZNfzH-14" source="YKWzOPBAbGGIlihZNfzH-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="60" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="93" />
+              <mxPoint x="110" y="128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-20" value="启&lt;br&gt;动" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-14">
+          <mxGeometry x="80" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-23" value="创建并启动工作线程&lt;span style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;AsyncRunnable&lt;br&gt;注册ShutDownHook，进程退出时等待500ms&lt;br&gt;等待轨迹消息发送完成&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="180" />
+            </Array>
+            <mxPoint x="95" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-14">
+          <mxGeometry x="79" y="702" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-72" value="存入traceContextQueue" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1.2;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-14" target="YKWzOPBAbGGIlihZNfzH-71">
+          <mxGeometry x="0.1111" y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="89" y="712" as="sourcePoint" />
+            <mxPoint x="-551" y="632" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="129" y="712" />
+              <mxPoint x="129" y="742" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YKWzOPBAbGGIlihZNfzH-17" value="append" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.2;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-8" target="YKWzOPBAbGGIlihZNfzH-15">
           <mxGeometry x="-0.5324" y="4" width="80" relative="1" as="geometry">
             <mxPoint x="440" y="400" as="sourcePoint" />
             <mxPoint x="760" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-24" value="&lt;span style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.0667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;AsyncRunnable&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="80" width="120" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-24">
+          <mxGeometry x="55" y="170" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-27" value="run&lt;br&gt;while (!stopped)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="180" />
+            </Array>
+            <mxPoint x="70" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-38" value="遍历&lt;span style=&quot;text-align: left;&quot;&gt;taskQueueByTopic&lt;br&gt;提交到线程池异步执行发送任务&lt;br&gt;AsyncTraceDispatcher.traceExecutor.submit(AsyncDataSendTask)&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1.1;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-24" target="YKWzOPBAbGGIlihZNfzH-25">
+          <mxGeometry x="0.4515" y="60" width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="410" as="sourcePoint" />
+            <mxPoint x="180" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="410" />
+              <mxPoint x="90" y="454" />
+            </Array>
+            <mxPoint x="60" y="-60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-29" value="从traceContextQueue拉取数据（拉取间隔100ms）" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-25" target="YKWzOPBAbGGIlihZNfzH-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1000" y="360" as="sourcePoint" />
+            <mxPoint x="1010" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="350" />
+              <mxPoint x="930" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-32" value="缓存到&lt;span style=&quot;text-align: left;&quot;&gt;taskQueueByTopic&amp;nbsp;&lt;/span&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.1;exitY=0.698;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-25" target="YKWzOPBAbGGIlihZNfzH-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1195" y="360" as="sourcePoint" />
+            <mxPoint x="814.5" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="466" />
+              <mxPoint x="1040" y="470" />
+              <mxPoint x="870" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-39" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AsyncDataSendTask&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="80" width="150" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-39">
+          <mxGeometry x="70" y="480" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-43" value="run" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.9;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-39" target="YKWzOPBAbGGIlihZNfzH-40">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="450" />
+              <mxPoint x="120" y="450" />
+              <mxPoint x="120" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-46" value="向存储轨迹的topic发送消息轨迹" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.4;exitY=0.828;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.2;entryY=0.435;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-40" target="YKWzOPBAbGGIlihZNfzH-45">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1060" y="680" as="sourcePoint" />
+            <mxPoint x="1140" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-48" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;DefaultMQPushConsumerImpl&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-251" y="450" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-48">
+          <mxGeometry x="95" y="80" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-48">
+          <mxGeometry x="100" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-54" value="提交到消费服务线程池" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YKWzOPBAbGGIlihZNfzH-53" parent="YKWzOPBAbGGIlihZNfzH-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="135" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-62" value="提交ConsumeRequest" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-48" target="YKWzOPBAbGGIlihZNfzH-55">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="111" y="200" as="sourcePoint" />
+            <mxPoint x="271" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-52" value="返回找到的消息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.2;exitY=0.838;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.012;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-50" target="YKWzOPBAbGGIlihZNfzH-49">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="150" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-51" value="拉取消息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.073;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.048;entryY=0.262;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-49" target="YKWzOPBAbGGIlihZNfzH-50">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="540" as="sourcePoint" />
+            <mxPoint x="572" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-55" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;ConsumeMessageService&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="450" width="170" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-55">
+          <mxGeometry x="80" y="206" width="10" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-55">
+          <mxGeometry x="85" y="251" width="10" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-58" value="线程池执行消费任务时&lt;span style=&quot;text-align: center;&quot;&gt;ConsumeRequest&lt;/span&gt;&lt;br&gt;会调用注册的ConsumeMessageHook" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="YKWzOPBAbGGIlihZNfzH-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="229" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="229" />
+            </Array>
+            <mxPoint x="95" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-60" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;ConsumeMessageTraceHookImpl&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="220" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-60">
+          <mxGeometry x="105" y="260" width="10" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YKWzOPBAbGGIlihZNfzH-60">
+          <mxGeometry x="105" y="309" width="10" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-63" value="consumeMessageBefore" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.093;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03;entryY=0.081;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-57" target="YKWzOPBAbGGIlihZNfzH-61">
+          <mxGeometry x="-0.0009" y="-12" width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="710" as="sourcePoint" />
+            <mxPoint x="180" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-66" value="consumeMessageAfter" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.315;exitY=0.899;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.044;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-57" target="YKWzOPBAbGGIlihZNfzH-65">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="760" as="sourcePoint" />
+            <mxPoint x="180" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKWzOPBAbGGIlihZNfzH-73" value="append" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YKWzOPBAbGGIlihZNfzH-60" target="YKWzOPBAbGGIlihZNfzH-71">
+          <mxGeometry x="-0.7416" width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="790" as="sourcePoint" />
+            <mxPoint x="690" y="790" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
