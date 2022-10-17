@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T21:56:52.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LT1jIme6bPRWptGvU5oZ" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T21:57:45.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Vf4epUg5G38cpcWg6r-i" version="20.2.3" type="github">
   <diagram id="TdvoRKJfYM33dsyxjR8E" name="Page-1">
     <mxGraphModel dx="2473" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -213,6 +213,9 @@
               <mxPoint x="145" y="392" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="A7BGZNvsOnJAbKlG1tEc-93" value="此处单独将reply时序图展示" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="A7BGZNvsOnJAbKlG1tEc-24">
+          <mxGeometry y="370" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="A7BGZNvsOnJAbKlG1tEc-27" value="NettyServerHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-210" y="90" width="120" height="670" as="geometry" />
