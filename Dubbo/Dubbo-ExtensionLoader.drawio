@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T02:08:48.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="s_CuehSp54vsammy8Sap" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T02:39:38.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lVsIpAC9jHsPXqmasom1" version="20.2.3" type="github">
   <diagram id="Xy-AfKOoRZmUpM65Vi-X" name="Page-1">
     <mxGraphModel dx="1298" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
             <mxPoint x="610" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ci8PL695M4GVPMbziUbs-38" value="通过给定的name获取拓展实现类对象&lt;br&gt;上方创建适配器类创建对象时也会调用此处&lt;br&gt;最终返回的一般是经过Wrapper类装饰增强的对象" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ci8PL695M4GVPMbziUbs-38" value="通过给定的name获取拓展实现类对象&lt;br&gt;最终返回的一般是经过Wrapper类装饰增强的对象" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="950" width="275" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ci8PL695M4GVPMbziUbs-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=1;exitX=0.6;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ci8PL695M4GVPMbziUbs-16" target="ci8PL695M4GVPMbziUbs-38">
