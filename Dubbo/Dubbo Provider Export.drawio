@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T15:56:09.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="l1nWSXjXCKL8DYEUcKOU" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T16:15:17.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3PQUfdLksK6vCB7AeUYP" version="20.2.3" type="github">
   <diagram id="Pb9lv38IHQtQsVFljM-k" name="Page-1">
-    <mxGraphModel dx="2163" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1731" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,10 +127,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-26" value="RegistryProtocol" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="70" width="100" height="1010" as="geometry" />
+          <mxGeometry x="1690" y="70" width="100" height="2060" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-26">
-          <mxGeometry x="45" y="458" width="10" height="360" as="geometry" />
+          <mxGeometry x="45" y="458" width="10" height="1462" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-26">
           <mxGeometry x="50" y="509" width="10" height="160" as="geometry" />
@@ -150,17 +150,57 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-26">
+          <mxGeometry x="50" y="1553" width="10" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-81" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;register&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="NNi6yRZVvPSZJpoD0l9T-80" parent="NNi6yRZVvPSZJpoD0l9T-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1533" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-26">
+          <mxGeometry x="50" y="1330" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-83" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getRegistry&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="NNi6yRZVvPSZJpoD0l9T-82" parent="NNi6yRZVvPSZJpoD0l9T-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-86" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getRegistry&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.367;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NNi6yRZVvPSZJpoD0l9T-26" target="NNi6yRZVvPSZJpoD0l9T-85">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1350" as="sourcePoint" />
+            <mxPoint x="140" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-94" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getRegistry&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.367;entryY=0.246;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NNi6yRZVvPSZJpoD0l9T-26" target="NNi6yRZVvPSZJpoD0l9T-93">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1590" as="sourcePoint" />
+            <mxPoint x="140" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-102" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;register&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.5;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NNi6yRZVvPSZJpoD0l9T-26" target="NNi6yRZVvPSZJpoD0l9T-101">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="1690" as="sourcePoint" />
+            <mxPoint x="140" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-33" value="Protocol$Adaptive" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="70" width="100" height="1090" as="geometry" />
+          <mxGeometry x="2000" y="70" width="100" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-33">
           <mxGeometry x="45" y="510" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-36" value="此处&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;providerUrl&lt;br&gt;&lt;/span&gt;已是Dubbo&lt;span style=&quot;color: rgb(140, 140, 140); font-style: italic; background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="695" width="100" height="100" as="geometry" />
+          <mxGeometry x="1870" y="620" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-37" value="QosProtocolWrapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="70" width="130" height="1130" as="geometry" />
+          <mxGeometry x="2340" y="70" width="130" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-37">
           <mxGeometry x="60" y="520" width="10" height="260" as="geometry" />
@@ -172,7 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-39" value="ProtocolListenerWrapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2700" y="70" width="150" height="1190" as="geometry" />
+          <mxGeometry x="2700" y="70" width="150" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-39">
           <mxGeometry x="70" y="530" width="10" height="250" as="geometry" />
@@ -335,6 +375,93 @@
         </mxCell>
         <mxCell id="NNi6yRZVvPSZJpoD0l9T-79" value="网络通信部分" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3830" y="20" width="1540" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-84" value="RegistryFactory$Adaptive" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1320" width="170" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-84">
+          <mxGeometry x="80" y="90" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-90" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getRegistry&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NNi6yRZVvPSZJpoD0l9T-84" target="NNi6yRZVvPSZJpoD0l9T-89">
+          <mxGeometry x="0.4429" y="3" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="126" as="sourcePoint" />
+            <mxPoint x="390" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-84">
+          <mxGeometry x="80" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-96" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getRegistry&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.3;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="NNi6yRZVvPSZJpoD0l9T-84" target="NNi6yRZVvPSZJpoD0l9T-95">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="350" as="sourcePoint" />
+            <mxPoint x="170" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-87" value="大多数场景中注册中心是Zookeeper" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-88" value="ZookeeperRegistryFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="1320" width="180" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-88">
+          <mxGeometry x="85" y="100" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-88">
+          <mxGeometry x="90" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-92" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;createRegistry&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="NNi6yRZVvPSZJpoD0l9T-91" parent="NNi6yRZVvPSZJpoD0l9T-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-95" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-88">
+          <mxGeometry x="84" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-98" value="成功创建注册中心后会放入缓存" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="1510" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-99" value="直接从缓存中获取之前创建的对象" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2421" y="1656" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-100" value="FailbackRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1320" width="110" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-100">
+          <mxGeometry x="50" y="430" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-104" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;doRegister&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="NNi6yRZVvPSZJpoD0l9T-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="270" y="450" />
+            </Array>
+            <mxPoint x="270" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-105" value="ZookeeperRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2860" y="1320" width="120" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-105">
+          <mxGeometry x="55" y="440" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-106" value="CuratorZookeeperClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="1320" width="140" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="NNi6yRZVvPSZJpoD0l9T-106">
+          <mxGeometry x="65" y="450" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-108" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;create&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.2;exitY=0.169;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NNi6yRZVvPSZJpoD0l9T-103" target="NNi6yRZVvPSZJpoD0l9T-107">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2930" y="1780" as="sourcePoint" />
+            <mxPoint x="3010" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNi6yRZVvPSZJpoD0l9T-109" value="通过zk客户端注册服务到Zookeeper" style="shape=note;size=20;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="1800" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
