@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T02:46:21.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.3" etag="KAQaDkN3MJKUil4iyur8" type="github"><diagram id="dtRATO2ajeExPdYTZbJX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-18T03:02:24.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5N7kPk9PK3YnPbfH-YVB" version="20.2.3" type="github">
+  <diagram id="dtRATO2ajeExPdYTZbJX" name="Page-1">
+    <mxGraphModel dx="1298" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-1" value="InvokerInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="150" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-1">
+          <mxGeometry x="71" y="120" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-7" value="invoke" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="LG_lPVwHoYFbGhelgoYH-6" parent="LG_lPVwHoYFbGhelgoYH-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-8" value="MockClusterInvoker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="120" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-8">
+          <mxGeometry x="55" y="130" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-10" value="invoke" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="131" y="190" as="sourcePoint" />
+            <mxPoint x="305" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-11" value="FailoverClusterInvoker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="130" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-11">
+          <mxGeometry x="60" y="140" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-11">
+          <mxGeometry x="65" y="190" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-15" value="doInvoke" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="LG_lPVwHoYFbGhelgoYH-14" parent="LG_lPVwHoYFbGhelgoYH-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-11">
+          <mxGeometry x="70" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-17" value="select" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="LG_lPVwHoYFbGhelgoYH-16" parent="LG_lPVwHoYFbGhelgoYH-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-13" value="invoke" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="315" y="200" as="sourcePoint" />
+            <mxPoint x="480" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-18" value="负载均衡" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LG_lPVwHoYFbGhelgoYH-16" target="LG_lPVwHoYFbGhelgoYH-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="410" as="sourcePoint" />
+            <mxPoint x="670" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-20" value="InvokerDelegete" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-20">
+          <mxGeometry x="45" y="290" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-22" value="invoke" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="495" y="346" as="sourcePoint" />
+            <mxPoint x="675" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-23" value="Filter责任链" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="50" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-23">
+          <mxGeometry x="45" y="300" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-25" value="invoke" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="685" y="358" as="sourcePoint" />
+            <mxPoint x="835" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-26" value="DubboInvoker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="50" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-26">
+          <mxGeometry x="45" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LG_lPVwHoYFbGhelgoYH-26">
+          <mxGeometry x="50" y="340" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-32" value="doInvoke" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="LG_lPVwHoYFbGhelgoYH-31" parent="LG_lPVwHoYFbGhelgoYH-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LG_lPVwHoYFbGhelgoYH-28" value="invoke" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="845" y="370" as="sourcePoint" />
+            <mxPoint x="995" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
