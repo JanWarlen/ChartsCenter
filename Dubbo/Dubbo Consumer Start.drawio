@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T01:39:40.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4EoWQ43xSsnGvStRA_tq" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T01:40:32.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kOyeamzYRQ1UhCBOLa7R" version="20.2.3" type="github">
   <diagram id="S-YhWcMg4kfTPjEh6Daq" name="Page-1">
     <mxGraphModel dx="2163" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -388,6 +388,9 @@
         </mxCell>
         <mxCell id="prSrardVWq4stz3Opwxa-92" value="较为重要的一步&lt;br&gt;通过注册中心的providers下的url生成对应的Invoker" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1442" y="924" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="prSrardVWq4stz3Opwxa-93" value="创建服务代理" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3190" y="1330" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
